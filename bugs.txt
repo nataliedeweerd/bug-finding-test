@@ -1,0 +1,3 @@
+- Message field has asterisk denoting it’s required, but the code isn’t checking that it’s filled.
+- Image in content is overflowing in the X on mobile.
+- Smoothscroll error in console.
