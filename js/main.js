@@ -1,7 +1,18 @@
 
-jQuery(function () {
-    'use strict';
-
+jQuery(function($) {
+    
+    $('.circle--1').waypoint(function(){
+        $('.circle--1').addClass('circle--animate');
+    }, { offset: 'bottom-in-view' });
+    
+    $('.circle--2').waypoint(function(){
+        $('.circle--2').addClass('circle--animate');
+    }, { offset: 'bottom-in-view' });
+    
+    $('.circle--3').waypoint(function(){
+        $('.circle--3').addClass('circle--animate');
+    }, { offset: 'bottom-in-view' });
+    
     $('a.page-scroll').click(function() {
         if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
           var target = $(this.hash);
@@ -43,7 +54,19 @@ jQuery(function () {
     // Add browser specific classes to body
     var browserInfo = getBrowserInfo();
     $('body').addClass((browserInfo.browser).toLowerCase()).addClass((browserInfo.browser).toLowerCase()+'--'+(browserInfo.version).toLowerCase());
-}($));
+    
+});
+
+function circleAnimation(){
+    /* Separate as they stack in responsive */
+    $('.circle--1, .circle--2, .circle--3').appear();
+    
+    $('.circle--1').on('appear',function(){	$('.circle--1').addClass('circle--animate'); });
+    $('.circle--2').on('appear',function(){	$('.circle--2').addClass('circle--animate'); });
+    $('.circle--3').on('appear',function(){	$('.circle--3').addClass('circle--animate'); });
+
+}
+
 
 function getBrowserInfo() {
     var ua= navigator.userAgent, tem,
@@ -60,3 +83,4 @@ function getBrowserInfo() {
     if((tem= ua.match(/version\/(\d+)/i))!= null) M.splice(1, 1, tem[1]);
     return { 'browser': M[0], 'version': M[1] }
 };
+
