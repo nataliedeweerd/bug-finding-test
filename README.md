@@ -16,7 +16,7 @@ Once you're all set up, and without looking at the bugs.(txt/docx) file, test th
 
 ## Contributing
 
-I'm more than happy for bugs to be created, or undocumented bugs to be added to the .txt and .docx files! Before you do though, please read [CONTRIBUTING.md](contributing.md).
+I'm more than happy for bugs to be created, or undocumented bugs to be added to the .txt and .docx files! Before you do though, please read [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ## Authors
 
