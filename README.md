@@ -6,7 +6,9 @@ A bugged website to be used as a site-checking test.
 
 Download all of the files and either upload them to a server, or run them in WAMPP/XAMPP. There's a small amount of PHP code which runs for the form submission. 
 
-Once you're all set up, and without looking at the bugs.(txt/docx) file, test the site thoroughly and make a note of all of the bugs you find. Then compare it with the checklist in the file (.docx provides screenshot). If you find them all, congratulations! If you don't, consider how you would test for these issues in the future. If you find **more** bugs then pull and add them to the .txt and .docx files!
+Once you're all set up, and without looking at the bugs.(txt/docx) file, test the site thoroughly and make a note of all of the bugs you find. Then compare it with the checklist in the file (.docx provides screenshot). If you find them all, congratulations! If you don't, consider how you would test for these issues in the future. If you find **more** bugs then request a pull and add them to the .txt and .docx files!
+
+**Remember** this site is designed as a learning tool to help you improve your site testing.
 
 ## Built With
 

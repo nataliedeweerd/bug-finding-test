@@ -3,3 +3,12 @@
 - Smoothscroll error in console.
 - SVG Animation doesn't work on IE.
 - (IE) Console error logged (Unable to get property 'toLowerCase' of undefined or null reference).
+
+- No favicon
+- Message left in console.
+
+
+
+- Create animation where image scrolls off screen
+- No GA
+- No robots.txt
