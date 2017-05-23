@@ -1,14 +1,10 @@
 - Message field has asterisk denoting it’s required, but the code isn’t checking that it’s filled.
 - Image in content is overflowing in the X on mobile.
-- Smoothscroll error in console.
 - SVG Animation doesn't work on IE.
 - (IE) Console error logged (Unable to get property 'toLowerCase' of undefined or null reference).
-
 - No favicon
 - Message left in console.
-
-
-
-- Create animation where image scrolls off screen
-- No GA
 - No robots.txt
+- No Google Analytics
+- Animation on gallery causes first image to move outside of its wrapper.
+- At 375px, menu item "Mongolian Shrimp & Broccoli" name overlaps price.

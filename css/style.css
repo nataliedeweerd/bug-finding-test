@@ -330,7 +330,38 @@ header .intro-text {
 /* Gallery Section */
 #gallery {padding: 0;}
 
-#gallery .gallery-item {margin: 0 -15px;}
+#gallery .gallery-item {
+    margin: 0 -15px;
+    overflow:hidden;
+}
+
+#gallery .row > div:nth-child(1) .gallery-item img{
+    transform:matrix(1.2, 0, 0, 1.2, -40, 0) translateZ(0); 
+    animation:anim__1 25s infinite;
+    animation-timing-function:linear;
+    transform:translateZ(0);
+}
+
+@keyframes anim__1 {
+    0% { transform:matrix(1.2, 0, 0, 1.2, -40, 0) translateZ(0); }
+    45% { transform:matrix(1.2, 0, 0, 1.2, 10, 0) translateZ(0); }
+    50% { transform:matrix(1.2, 0, 0, 1.2, 10, 0) translateZ(0); }
+    100% { transform:matrix(1.2, 0, 0, 1.2, -40, 0) translateZ(0); }
+}
+
+#gallery .row > div:nth-child(3) .gallery-item img{
+    transform:matrix(1.2, 0, 0, 1.2, 40, -20) translateZ(0); 
+    animation:anim__2 25s infinite;
+    animation-timing-function:linear;
+    transform:translateZ(0);
+}
+
+@keyframes anim__2 {
+    0% { transform:matrix(1.2, 0, 0, 1.2, 30, -20) translateZ(0); }
+    45% { transform:matrix(1.4, 0, 0, 1.4, -10, 0) translateZ(0); }
+    50% { transform:matrix(1.4, 0, 0, 1.4, -10, 0) translateZ(0); }
+    100% { transform:matrix(1.2, 0, 0, 1.2, 30, -20) translateZ(0); }
+}
 
 /* Team Section */
 #team {padding: 120px 0;}
