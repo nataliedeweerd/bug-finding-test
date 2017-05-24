@@ -8,3 +8,4 @@
 - No Google Analytics
 - Animation on gallery causes first image to move outside of its wrapper.
 - At 375px, menu item "Mongolian Shrimp & Broccoli" name overlaps price.
+- (FF) Numbers are vertically centred inside circle SVG.
