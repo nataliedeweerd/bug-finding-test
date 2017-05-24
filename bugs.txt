@@ -9,3 +9,4 @@
 - Animation on gallery causes first image to move outside of its wrapper.
 - At 375px, menu item "Mongolian Shrimp & Broccoli" name overlaps price.
 - (FF) Numbers are vertically centred inside circle SVG.
+- At 991px and below, the social icons float right, rather than centred.
